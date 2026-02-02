@@ -1,15 +1,19 @@
 {
-  "name": "puter-tts-api",
+  "name": "puter-tts-server",
   "version": "1.0.0",
-  "type": "module",
+  "description": "Server TTS ElevenLabs Gratis via Puter.js",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js"
   },
   "dependencies": {
-    "@heyputer/puter.js": "^1.0.0",
+    "@heyputer/puter.js": "^1.2.6",
     "cors": "^2.8.5",
-    "dotenv": "^16.0.0",
-    "express": "^4.18.0"
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2"
+  },
+  "engines": {
+    "node": ">=18.0.0"
   }
 }
